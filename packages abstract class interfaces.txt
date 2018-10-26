@@ -1,0 +1,28 @@
+PACKAGES    ABSTRACT CLASSES    INTERFACES
+
+#ABSTRACT
+1) methos  2) classes        
+
+abstract class cn be inherited from other classes
+we cnt create object in abstract class
+in ths functions are not implemented ( implemented functions which do not have body);
+ *abstract void speak() == this will be overridden;
+this wont have any implementation heree
+*abstract final  cnt cme together
+
+abstract class
+*i) if a class inherits an abstract class then it should override all abstract methods of the abstract base class
+*ii)if you donot do (i) then declare derive class as abstract.
+
+
+#INTERFACES
+*it is a pure abstract class;
+pure abstract class means =>i)cannot have non abstract methods.
+ii) cannot have non static members.
+* all variables in interface are public static final. ( final is used to give fixed values)
+*[ a class is "what it is or who it is";
+  
+ an interface is " what it can do"]
+*[a class can implement an interface not extend a interface]
+*[a interface can extend another interface]
+

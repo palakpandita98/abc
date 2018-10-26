@@ -1,0 +1,2 @@
+initialisation blocks== Static blocks and non static blocks
+* static block=is executed only at one time whenever the class is loaded for the frst time
